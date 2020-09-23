@@ -6,18 +6,24 @@
 
 .row{
   width: 100%;
-  height: 80px;
+
 }
 
 .rowhead-1{
     background-color: #F4F9FD;
     border-bottom: 1px solid black;
+    height: 80px;
 }
 
 .rowhead1::after{
   content: '';
   clear: both;
   display: table;
+}
+
+.rowhead-2{
+  background-color: #FFFF;
+  height: 80px;
 }
 
 .col1{
@@ -62,4 +68,97 @@
   height: 40px;
   width: 400px;
   background-color: black;
+}
+
+.mainrow{
+  height: 500px;
+  background-color: #FFF2EF;
+}
+
+.title, .subtitle{
+  height: 100px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: navy;
+}
+
+.subtitle{
+  margin-top: 0;
+}
+
+.trial{
+  width: 200px;
+  height: 50px;
+  background-color: coral;
+}
+
+.subscript{
+  height: 4px;
+  width: 250px;
+  background-color: navy;
+  margin-top: 20px;
+}
+
+.separtion-row{
+   height: 80px;
+   background-color: #AFEBE4;
+   border-top: 2px solid black;
+   border-bottom: 2px solid
+   black;
+}
+
+.content-container{
+  background-color: #F4F9FD;
+  height: 1500px;
+  width: 100%;
+}
+
+.head-img{
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  margin: 20px auto;
+}
+
+.description-text{
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.description-text p{
+  margin-top: 15px;
+}
+
+.widget{
+  width: 80%;
+  height: 300px;
+  background-color: #FFFF;
+  margin: 30px auto;
+}
+
+.widget-col1{
+  width: 30%;
+  height: 100%;
+  border-right: 1px solid black;
+  float: left
+}
+
+.widget-col2{
+  width: 70%;
+  height: 100%;
+  float: left
+}
+
+.vertical-wid{
+  width: 20%;
+  height: 500px;
+  float: left;
+  background-color: #FFFF;
+  margin: 30px;
+}
+
+.c-vertical-wid{
+  margin: 0 auto;
 }
