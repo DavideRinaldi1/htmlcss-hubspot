@@ -110,7 +110,7 @@
 
 .content-container{
   background-color: #F4F9FD;
-  height: 1500px;
+  height: 1200px;
   width: 100%;
 }
 
@@ -151,10 +151,87 @@
   float: left
 }
 
+
 .vertical-wid{
   width: 20%;
   height: 500px;
   float: left;
-  background-color: #FFFF;
-  margin: 30px;
+  background-color: blue;
+}
+
+.vertical-block .lf{
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.vertical-block .central{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.vertical-block .rt{
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.refernce-row{
+  height: 500px;
+  background-color:#00b3af;
+}
+
+.description-reference{
+  width: 80%;
+  height: 150px;
+  margin: 0 auto;
+  background-color: white;
+
+}
+
+.reference{
+  width: 80%;
+  height: 200px;
+  margin: 30px auto;
+  background-color: white;
+}
+
+.sponsor-container{
+  width: 100%;
+  height: 500px;
+  background-color: white;
+}
+
+.counter{
+  width: 30%;
+  height: 30%;
+  border: 2px solid black;
+  float: left;
+  margin-top: 5%;
+  margin-left: 10%
+}
+
+.sponsor{
+  width: 50%;
+  height: 30%;
+  border: 2px solid black;
+  float: left;
+  margin-top: 5%;
+  margin-right: 10%;
+}
+
+.start{
+  width: 30%;
+  height: 60%;
+  border: 2px solid black;
+  float: left;
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+
+.girl-pic{
+  width: 50%;
+  height: 60%;
+  border: 2px solid black;
+  float: left;
+  margin-bottom: 5%;
+  margin-right: 10%;
 }
