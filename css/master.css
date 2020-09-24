@@ -200,10 +200,29 @@
 
 .widget-col1{
   width: 30%;
-  height: 100%;
-  border-right: 1px solid black;
-  float: left
+  height: 300px;
+  /* border-right: 1px solid black; */
+  float: left;
+  position: relative;
 }
+
+.wid-row{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.learnmore{
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 13px;
+  margin-left: 70px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: coral;
+  border: 1px solid coral;
+  color: white;
+}
+
 
 .widget-col2{
   width: 70%;
@@ -260,9 +279,11 @@
 }
 
 .sponsor-container{
-  width: 100%;
+  width: 80%;
   height: 500px;
   background-color: white;
+  padding: 80px;
+  box-sizing: content-box;
 }
 
 .sponsor-container::after{
@@ -273,39 +294,31 @@
 }
 
 .counter{
-  width: 30%;
-  height: 30%;
+  width: 40%;
+  height: 40%;
   border: 2px solid black;
   float: left;
-  margin-top: 5%;
-  margin-left: 10%
 }
 
 .sponsor{
-  width: 50%;
-  height: 30%;
+  width: 60%;
+  height: 40%;
   border: 2px solid black;
   float: left;
-  margin-top: 5%;
-  margin-right: 10%;
 }
 
 .start{
-  width: 30%;
+  width: 40%;
   height: 60%;
   border: 2px solid black;
   float: left;
-  margin-bottom: 5%;
-  margin-left: 10%;
 }
 
 .girl-pic{
-  width: 50%;
+  width: 60%;
   height: 60%;
   border: 2px solid black;
   float: left;
-  margin-bottom: 5%;
-  margin-right: 10%;
 }
 
 .footer-container{
@@ -340,9 +353,9 @@
 .credits-copy{
   height: 200px;
   width: 80%;
-  margin-top: 50px;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
   background-color: yellow;
   position: absolute;
   bottom: 0;
