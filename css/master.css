@@ -78,7 +78,7 @@
 }
 
 .fa {
-  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .login, .getforfree{
@@ -88,7 +88,6 @@
   margin: 3px 3px;
   cursor: pointer;
   border-radius: 5px;
-  font-family: 'Roboto', sans-serif;
 }
 
 .login{
@@ -124,9 +123,7 @@
 }
 
 .title, .subtitle{
-  height: 100px;
   width: 100%;
-  margin-top: 50px;
   margin-bottom: 20px;
   color: navy;
 }
@@ -134,23 +131,29 @@
 .title{
   font-size: 50px;
   font-weight: 900;
-}
-
-.subtitle{
   margin-top: 50px;
 }
 
-.trial{
-  width: 200px;
-  height: 50px;
+.subtitle{
+  margin-top: 30px;
+}
+
+.getforfree-2{
+  padding: 20px 50px;
+  text-align: center;
+  font-size: 13px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 5px;
   background-color: coral;
+  border: 1px solid coral;
+  color: white;
 }
 
 .subscript{
-  height: 4px;
-  width: 250px;
-  background-color: navy;
-  margin-top: 20px;
+  font-size: 10px;
+  margin-top: 10px;
+  color: navy;
 }
 
 .separtion-row{
@@ -165,13 +168,11 @@
   background-color: #F4F9FD;
   height: 1200px;
   width: 100%;
+  position: relative;
 }
 
-.head-img{
-  width: 150px;
-  height: 150px;
-  background-color: green;
-  margin: 20px auto;
+.head-img {
+  text-align: center;
 }
 
 .description-text{
@@ -322,7 +323,7 @@
 
 .menu-footer{
   width: 20%;
-  height: 50%;
+  height: 350px;
   background-color: navy;
   border: 2px solid white;
   float: left;
@@ -337,9 +338,9 @@
 }
 
 .credits-copy{
-  height: 30%;
+  height: 200px;
   width: 80%;
-  margin-top: 10%;
+  margin-top: 50px;
   margin-left: 10%;
   margin-right: 10%;
   background-color: yellow;
