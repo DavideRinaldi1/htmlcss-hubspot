@@ -77,7 +77,7 @@
   line-height: 80px;
 }
 
-.fa {
+.fa-search {
   margin-left: 15px;
 }
 
@@ -199,14 +199,14 @@
 }
 
 .widget-col1{
-  width: 30%;
+  width: 35%;
   height: 300px;
   /* border-right: 1px solid black; */
   float: left;
   position: relative;
 }
 
-.wid-row{
+.imgwid-row{
   margin-top: 40px;
   text-align: center;
 }
@@ -215,7 +215,6 @@
   padding: 15px 25px;
   text-align: center;
   font-size: 13px;
-  margin-left: 70px;
   cursor: pointer;
   border-radius: 5px;
   background-color: coral;
@@ -223,11 +222,32 @@
   color: white;
 }
 
+.horziontal-wid{
+  margin-left: 87px;
+}
 
 .widget-col2{
-  width: 70%;
+  width: 65%;
   height: 100%;
   float: left
+}
+
+.widget-col2 h3{
+  padding-top: 65px;
+}
+
+.widget-col2 p{
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.widget-col2 h4{
+  padding-bottom: 20px;
+}
+
+.fa-check-circle {
+  color: coral;
+  padding: 0 10px;
 }
 
 .vertical-row:after{
@@ -240,9 +260,37 @@
   width: 20%;
   height: 500px;
   float: left;
-  background-color: blue;
+  background-color: #ffff;
 }
 
+.img-marketing img{
+  width: 100%;
+}
+
+.wid-row h4{
+padding-bottom: 20px;
+text-align: center;
+}
+
+.mark-hub{
+  padding: 0 20px;
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 50px;
+}
+
+.wid-row h5{
+padding: 20px 0;
+text-align: center;
+}
+
+.list{
+  font-size: 13px;
+}
+
+.button-vertical{
+  margin: 30px 40px;
+}
 .vertical-row .lf{
   margin-left: 10%;
   margin-right: 5%;
@@ -267,10 +315,23 @@
   width: 80%;
   height: 150px;
   margin: 0 auto;
-  background-color: white;
+  color: #ffff;
+}
+
+.description-reference h2, span{
+  text-align: center;
+  padding: 30px 0 20px;
+}
+
+.description-reference h2{
+  font-weight: bolder;
+  font-size: 26px;
 
 }
 
+.description-reference: span{
+  font-size: 15px;
+}
 .reference{
   width: 80%;
   height: 200px;
@@ -281,7 +342,6 @@
 .sponsor-container{
   width: 80%;
   height: 500px;
-  background-color: white;
   padding: 80px;
   box-sizing: content-box;
 }
@@ -298,6 +358,17 @@
   height: 40%;
   border: 2px solid black;
   float: left;
+}
+
+.counter h1{
+  text-align: center;
+  padding: 30px 0 20px;
+}
+
+.counter > div{
+  /* text-align: center; */
+  margin: 0 100px;
+  font-size: 12px;
 }
 
 .sponsor{
