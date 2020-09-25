@@ -156,6 +156,12 @@
   color: navy;
 }
 
+.mainrow .col2{
+  background-image: url('../img/main.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
 .separtion-row{
    height: 80px;
    background-color: #AFEBE4;
@@ -166,7 +172,7 @@
 
 .content-container{
   background-color: #F4F9FD;
-  height: 1200px;
+  height: 1300px;
   width: 100%;
   position: relative;
 }
@@ -176,7 +182,7 @@
 }
 
 .description-text{
-  width: 60%;
+  width: 720px;
   text-align: center;
   margin: 0 auto;
 }
@@ -186,7 +192,7 @@
 }
 
 .widget{
-  width: 80%;
+  width: 1200px;
   height: 300px;
   background-color: #FFFF;
   margin: 30px auto;
@@ -223,7 +229,7 @@
 }
 
 .horziontal-wid{
-  margin-left: 87px;
+  text-align: center;
 }
 
 .widget-col2{
@@ -250,6 +256,10 @@
   padding: 0 10px;
 }
 
+.vertical-row{
+  width: 1200px;
+  margin: 0 auto;
+}
 .vertical-row:after{
   content: '';
   display: table;
@@ -257,14 +267,26 @@
 }
 
 .vertical-wid{
-  width: 20%;
-  height: 500px;
+  width: 350px;
+  height: 600px;
   float: left;
   background-color: #ffff;
+  position: relative;
+
+}
+
+.wid-row{
+ height: 500px;
+ width: 100%;
 }
 
 .img-marketing img{
-  width: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+.img-marketing{
+text-align: center;
 }
 
 .wid-row h4{
@@ -289,22 +311,23 @@ text-align: center;
 }
 
 .button-vertical{
-  margin: 30px 40px;
+  margin: 50px auto;
 }
-.vertical-row .lf{
+
+/* .vertical-row .lf{
   margin-left: 10%;
-  margin-right: 5%;
-}
+  margin-right: 60px;
+} */
 
 .vertical-row .central{
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
-.vertical-row .rt{
-  margin-left: 5%;
-  margin-right: 10%;
-}
+/* .vertical-row .rt{
+  margin-left: 60px;
+  margin-right: 120px;
+} */
 
 .refernce-row{
   height: 500px;
@@ -312,37 +335,40 @@ text-align: center;
 }
 
 .description-reference{
-  width: 80%;
+  width: 1200px;
   height: 150px;
   margin: 0 auto;
   color: #ffff;
 }
 
-.description-reference h2, span{
+.description-reference > h2{
   text-align: center;
   padding: 30px 0 20px;
-}
-
-.description-reference h2{
   font-weight: bolder;
   font-size: 26px;
-
 }
 
-.description-reference: span{
+.description-reference > span{
+  text-align: center;
+  padding: 30px 0 20px;
   font-size: 15px;
 }
+/* .description-reference h2{
+
+} */
+
 .reference{
-  width: 80%;
+  width: 1200px;
   height: 200px;
   margin: 30px auto;
   background-color: white;
 }
 
 .sponsor-container{
-  width: 80%;
+  width: 1200px;
   height: 500px;
-  padding: 80px;
+  padding: 50px 0;
+  margin: 0 auto;
   box-sizing: content-box;
 }
 
@@ -350,13 +376,12 @@ text-align: center;
   content: '';
   display: table;
   clear: both;
-
 }
 
 .counter{
-  width: 40%;
-  height: 40%;
-  border: 2px solid black;
+  width: 400px;
+  height: 200px;
+  /* border: 2px solid black; */
   float: left;
 }
 
@@ -369,27 +394,54 @@ text-align: center;
   /* text-align: center; */
   margin: 0 100px;
   font-size: 12px;
+  line-height: 20px;
 }
 
 .sponsor{
-  width: 60%;
-  height: 40%;
-  border: 2px solid black;
+  width: 700px;
+  height: 200px;
+  /* border: 2px solid black; */
   float: left;
 }
 
 .start{
-  width: 40%;
-  height: 60%;
-  border: 2px solid black;
+  width: 400px;
+  height: 300px;
+  /* border: 2px solid black; */
   float: left;
+  position: relative;
+}
+
+.counter > h1{
+  text-align: left;
+  margin: 0 100px;
+}
+
+.start > div{
+  margin: 30px 0;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.start > span {
+  font-size: 9px;
+  display: block;
+  position: absolute;
+  bottom: 0;
 }
 
 .girl-pic{
-  width: 60%;
-  height: 60%;
-  border: 2px solid black;
+  width: 700px;
+  height: 300px;
+  /* border: 2px solid black; */
   float: left;
+  position: relative;
+}
+
+.girl-img img{
+  width: 280px;
+  position: absolute;
+  right: 0;
 }
 
 .footer-container{
@@ -406,7 +458,7 @@ text-align: center;
 }
 
 .menu-footer{
-  width: 20%;
+  width: 240px;
   height: 350px;
   background-color: navy;
   border: 2px solid white;
@@ -414,16 +466,16 @@ text-align: center;
 }
 
 .mfl{
-  margin-left: 10%
+  margin-left: 120px;
 }
 
 .mfr{
-  margin-right: 10%;
+  margin-right: 120px;
 }
 
 .credits-copy{
   height: 200px;
-  width: 80%;
+  width: 1200px;
   padding-top: 50px;
   padding-left: 10%;
   padding-right: 10%;
